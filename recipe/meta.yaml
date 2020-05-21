@@ -9,9 +9,9 @@ source:
   sha256: 91dfe6f3f706ee8cc32d38edbbf304e9b7583fb37108fef38229617f8b3eba23
 
 build:
-  number: 1
-  skip: True  # [py>=36]
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
+  script: {{ PYTHON }} -m pip install . --no-deps -vv    # [py==27]
+  script: echo "dummy package for python 3"              # [py> 27]
 
 requirements:
   build:
