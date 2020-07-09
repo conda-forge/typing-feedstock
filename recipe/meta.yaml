@@ -1,4 +1,4 @@
-{% set version = "3.7.4.1" %}
+{% set version = "3.7.4.2" %}
 
 package:
   name: typing
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/typing/typing-{{ version }}.tar.gz
-  sha256: 91dfe6f3f706ee8cc32d38edbbf304e9b7583fb37108fef38229617f8b3eba23
+  sha256: 6f6f3553709d2234e412092e5daa93aaaaa42ea1854505442280b39f9311707f
 
 build:
-  number: 2
-  script: {{ PYTHON }} -m pip install . --no-deps -vv    # [py==27]
-  script: echo "dummy package for python 3"              # [py> 27]
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv  # [py==27]
+  script: echo "dummy package for python 3"  # [py> 27]
 
 requirements:
   build:
@@ -28,7 +28,7 @@ about:
   home: https://docs.python.org/3.5/library/typing.html
   license: PSF
   license_file: LICENSE
-  summary: 'Type Hints for Python - backport for Python<3.5'
+  summary: Type Hints for Python - backport for Python<3.5
 
 extra:
   recipe-maintainers:
