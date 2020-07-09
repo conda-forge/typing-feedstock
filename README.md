@@ -5,7 +5,7 @@ Home: https://docs.python.org/3.5/library/typing.html
 
 Package license: PSF
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Type Hints for Python - backport for Python<3.5
 
