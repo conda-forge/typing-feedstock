@@ -1,4 +1,4 @@
-{% set version = "3.7.4.2" %}
+{% set version = "3.7.4.3" %}
 
 package:
   name: typing
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/typing/typing-{{ version }}.tar.gz
-  sha256: 6f6f3553709d2234e412092e5daa93aaaaa42ea1854505442280b39f9311707f
+  sha256: 1187fb9c82fd670d10aa07bbb6cfcfe4bdda42d6fab8d5134f04e8c4d0b71cc9
 
 build:
   number: 0
