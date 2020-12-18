@@ -9,16 +9,16 @@ source:
   sha256: 1187fb9c82fd670d10aa07bbb6cfcfe4bdda42d6fab8d5134f04e8c4d0b71cc9
 
 build:
-  number: 1
-  script: {{ PYTHON }} -m pip install . --no-deps -vv  # [py==27]
-  script: echo "dummy package for python 3"  # [py> 27]
+  number: 2
+  noarch: python
+  script: echo "dummy package for python 3"
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
 
 test:
   imports:
