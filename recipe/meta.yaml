@@ -14,7 +14,7 @@ build:
   script: echo "dummy package for python 3"  # [py> 27]
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
