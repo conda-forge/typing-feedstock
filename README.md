@@ -3,7 +3,7 @@ About typing
 
 Home: https://docs.python.org/3.5/library/typing.html
 
-Package license: PSF
+Package license: PSF-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/typing-feedstock/blob/master/LICENSE.txt)
 
